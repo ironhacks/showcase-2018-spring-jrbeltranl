@@ -1,0 +1,36 @@
+
+.table{
+  height: 425px;
+  border: 2px solid;
+  overflow:auto;
+  width: 100%
+}
+
+
+#map{
+  padding-top: 20px;
+  height:500px ;
+  width: 600px;
+
+}
+
+#getData, #rankSafety, #getDistrictsInfo{
+  width: 150px;
+}
+th,td{
+  border: 2px solid;
+  text-align: center;
+  width: 300px;
+}
+
+svg {
+      border: 1px solid #000000;
+  }
+  rect {
+      stroke: SteelBlue;
+      stroke-width: 2;
+      fill: LightSteelBlue  ;
+  }
+  rect:hover {
+      fill: SteelBlue ;
+  }
